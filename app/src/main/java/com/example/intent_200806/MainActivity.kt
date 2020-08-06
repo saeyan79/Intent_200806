@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity() {
 //            고유 숫자를 임의로 지정해서 명시 하면 됨 (1000번이 닉네임 가지러 가는거다 ~라고 내 맘대로 1000으로 지정함)
 //            근데 그러면 1000만 봤을때 무슨 의미인지 모르니까 맨 위로 올라가서 멤버변수에 담아. 그럼 변수명 보고 의미 확인 가능해. 가독성 향상
 //            멤버변수로 숫자 다룰때는 다 대문자에 언더바를 이용해서 이름 지으면 됨됨
-            startActivityForResult(myInent, REQ_FOR_NICKNAME)
+            startActivityForResult(myIntent, REQ_FOR_NICKNAME)
 
         }
     }
